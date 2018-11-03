@@ -21,3 +21,15 @@ N белочек нашли K орешков и решили разделить 
 ## Sample Output:
 
 4
+
+``` cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+  int n, k;
+  cin >> n >> k;
+  cout << k / n << endl;
+  return 0;
+}
+```
