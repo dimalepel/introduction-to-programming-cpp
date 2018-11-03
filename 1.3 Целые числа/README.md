@@ -1,1 +1,0 @@
-[1](introduction-to-programming-cpp/1.3 Целые числа/Задача 1/)
