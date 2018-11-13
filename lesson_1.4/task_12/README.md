@@ -31,64 +31,64 @@
 
 int main() {
   int n, m, x, y, altX, altY;
-    std::cin >> n >> m >> x >> y;
-    if (n > m) {
-        altX = m - x;
-        altY = n - y;
-        if ((x > altX) && (y > altY)) {
-            if (altX > altY) {
-                std::cout << altY;
-            } else {
-                std::cout << altX;
-            }
-        } else if ((x > altX) && (y < altY)) {
-            if (altX > y) {
-                std::cout << y;
-            } else {
-                std::cout << altX;
-            }
-        } else if ((x < altX) && (y > altY)) {
-            if (x > altY) {
-                std::cout << altY;
-            } else {
-                std::cout << x;
-            }
-        } else {
-            if (x > y) {
-                std::cout << y;
-            } else {
-                std::cout << x;
-            }
-        }
-    } else {
-        altX = n - x;
-        altY = m - y;
-        if ((x > altX) && (y > altY)) {
-            if (altX > altY) {
-                std::cout << altY;
-            } else {
-                std::cout << altX;
-            }
-        } else if ((x > altX) && (y < altY)) {
-            if (altX > y) {
-                std::cout << y;
-            } else {
-                std::cout << altX;
-            }
-        } else if ((x < altX) && (y > altY)) {
-            if (x > altY) {
-                std::cout << altY;
-            } else {
-                std::cout << x;
-            }
-        } else {
-            if (x > y) {
-                std::cout << y;
-            } else {
-                std::cout << x;
-            }
-        }
-    }
+	std::cin >> n >> m >> x >> y;
+	if (n > m) {
+			altX = m - x;
+			altY = n - y;
+			if ((x > altX) && (y > altY)) {
+					if (altX > altY) {
+							std::cout << altY;
+					} else {
+							std::cout << altX;
+					}
+			} else if ((x > altX) && (y < altY)) {
+					if (altX > y) {
+							std::cout << y;
+					} else {
+							std::cout << altX;
+					}
+			} else if ((x < altX) && (y > altY)) {
+					if (x > altY) {
+							std::cout << altY;
+					} else {
+							std::cout << x;
+					}
+			} else {
+					if (x > y) {
+							std::cout << y;
+					} else {
+							std::cout << x;
+					}
+			}
+	} else {
+			altX = n - x;
+			altY = m - y;
+			if ((x > altX) && (y > altY)) {
+					if (altX > altY) {
+							std::cout << altY;
+					} else {
+							std::cout << altX;
+					}
+			} else if ((x > altX) && (y < altY)) {
+					if (altX > y) {
+							std::cout << y;
+					} else {
+							std::cout << altX;
+					}
+			} else if ((x < altX) && (y > altY)) {
+					if (x > altY) {
+							std::cout << altY;
+					} else {
+							std::cout << x;
+					}
+			} else {
+					if (x > y) {
+							std::cout << y;
+					} else {
+							std::cout << x;
+					}
+			}
+	}
   return 0;
 }
 ```
