@@ -5,3 +5,5 @@
 [Задача 2](https://github.com/dimalepel/introduction-to-programming-cpp/tree/master/lesson_1.5/task_2)
 
 [Задача 3](https://github.com/dimalepel/introduction-to-programming-cpp/tree/master/lesson_1.5/task_3)
+
+[Задача 4](https://github.com/dimalepel/introduction-to-programming-cpp/tree/master/lesson_1.5/task_4)
