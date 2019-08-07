@@ -11,3 +11,5 @@
 [Задача 5](https://github.com/dimalepel/introduction-to-programming-cpp/tree/master/lesson_1.5/task_5)
 
 [Задача 6](https://github.com/dimalepel/introduction-to-programming-cpp/tree/master/lesson_1.5/task_6)
+
+[Задача 7](https://github.com/dimalepel/introduction-to-programming-cpp/tree/master/lesson_1.5/task_7)
